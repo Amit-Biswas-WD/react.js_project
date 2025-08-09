@@ -1,7 +1,10 @@
+import { RouterProvider } from "react-router-dom";
+import { AppRouter } from "./router/router";
+
 function App() {
   return (
     <>
-      <h1 className="text-2xl font-bold">Vite + React</h1>
+      <RouterProvider router={AppRouter} />
     </>
   );
 }
