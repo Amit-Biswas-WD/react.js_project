@@ -69,7 +69,7 @@ const ExplorePrograms = () => {
           sicuramente utili.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-6 my-8">
+      <div className="grid grid-cols-3 gap-6 my-20">
         {Data.map((items) => (
           <div
             key={items.id}

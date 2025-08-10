@@ -24,7 +24,7 @@ const icons = [
 
 const UnoSicurezza = () => {
   return (
-    <div className="bg-[#F0FAF7] py-12 flex justify-between my-16">
+    <div className="bg-[#F0FAF7] py-12 flex justify-between my-20">
       <img src={img2} alt="" />
       <div className="">
         <div className="flex justify-center">
