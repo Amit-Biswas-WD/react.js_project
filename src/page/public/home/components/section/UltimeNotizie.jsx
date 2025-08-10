@@ -1,10 +1,10 @@
-import img1 from "../../assets/UnoSicurezza/Home/notizie/Image1.png";
-import img2 from "../../assets/UnoSicurezza/Home/notizie/Image2.png";
-import img3 from "../../assets/UnoSicurezza/Home/notizie/Image3.png";
+import img1 from "../../../../../assets/UnoSicurezza/Home/notizie/Image1.png";
+import img2 from "../../../../../assets/UnoSicurezza/Home/notizie/Image2.png";
+import img3 from "../../../../../assets/UnoSicurezza/Home/notizie/Image3.png";
 
-const UltimeNotizie = () => {
+const UltimeNotizieSection = () => {
   return (
-    <div className="my-20">
+    <section className="w-[1200px] container mx-auto my-20">
       <h2 className="text-2xl Poppins font-medium text-[#252525] mb-8">
         Ultime notizie da UnoSicurezza
       </h2>
@@ -91,8 +91,8 @@ const UltimeNotizie = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default UltimeNotizie;
+export default UltimeNotizieSection;
