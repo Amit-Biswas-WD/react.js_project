@@ -57,8 +57,8 @@ const CondividiSection = () => {
         </button>
       </div>
       <div className="relative">
-        <img className="absolute -right-[120px] -top-[88px]" src={image} alt="" />
-        <img className="absolute" src={map} alt="" />
+        <img className="absolute -right-[120px] -top-[98px] max-w-[419px] max-h-[900px]" src={image} alt="" />
+        <img className="absolute max-w-[588px] max-h-[700px]" src={map} alt="" />
       </div>
     </section>
   );
