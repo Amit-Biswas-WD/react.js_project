@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "image": "/formazione/card/4.jpg",
+    "category": "Online courses",
+    "skill": "Soft skills",
+    "title": "Formazione SEVESO",
+    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "rating": 4.5,
+    "author": {
+      "image": "image7.jpg",
+      "name": "Jane Cooper",
+      "price": 17.84,
+      "category": "Instructor"
+    }
+  },
+  {
+    "id": 2,
+    "image": "/formazione/card/6.jpg",
+    "category": "e-Learning platform",
+    "skill": "Safety at work",
+    "title": "Formazione per i datori...",
+    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "rating": 4.3,
+    "author": {
+      "image": "image2.jpg",
+      "name": "Jane Cooper",
+      "price": 12.84,
+      "category": "Instructor"
+    }
+  },
+  {
+    "id": 3,
+    "image": "/formazione/card/1.jpg",
+    "category": "Corporate training",
+    "skill": "CFP courses",
+    "title": "Formazione GENERALE",
+    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "rating": 3.5,
+    "author": {
+      "image": "image5.jpg",
+      "name": "Jane Cooper",
+      "price": 19.84,
+      "category": "Instructor"
+    }
+  },
+  {
+    "id": 4,
+    "image": "/formazione/card/2.jpg",
+    "category": "Online courses",
+    "skill": "Leadership skills",
+    "title": "Leadership e Gestione",
+    "paragraph": "Corso completo per sviluppare capacità di leadership e team management.",
+    "rating": 4.7,
+    "author": {
+      "image": "image8.jpg",
+      "name": "Mario Rossi",
+      "price": 22.5,
+      "category": "Instructor"
+    }
+  },
+  {
+    "id": 5,
+    "image": "/formazione/card/9.jpg",
+    "category": "e-Learning platform",
+    "skill": "Workplace safety",
+    "title": "Sicurezza sul lavoro base",
+    "paragraph": "Formazione introduttiva per la sicurezza in ambienti di lavoro.",
+    "rating": 4.2,
+    "author": {
+      "image": "image1.jpg",
+      "name": "Laura Bianchi",
+      "price": 15.0,
+      "category": "Instructor"
+    }
+  },
+  {
+    "id": 6,
+    "image": "/formazione/card/12.jpg",
+    "category": "Corporate training",
+    "skill": "Time management",
+    "title": "Gestione del tempo per aziende",
+    "paragraph": "Ottimizza la produttività del team con tecniche di gestione del tempo.",
+    "rating": 4.6,
+    "author": {
+      "image": "image6.jpg",
+      "name": "Giorgio Verdi",
+      "price": 18.99,
+      "category": "Instructor"
+    }
+  },
+  {
+    "id": 7,
+    "image": "/formazione/card/3.jpg",
+    "category": "Online courses",
+    "skill": "Communication",
+    "title": "Comunicazione efficace",
+    "paragraph": "Tecniche per comunicare chiaramente in contesti professionali.",
+    "rating": 4.4,
+    "author": {
+      "image": "image12.jpg",
+      "name": "Chiara Neri",
+      "price": 20.49,
+      "category": "Instructor"
+    }
+  },
+  {
+    "id": 8,
+    "image": "/formazione/card/5.jpg",
+    "category": "e-Learning platform",
+    "skill": "Fire safety",
+    "title": "Prevenzione incendi",
+    "paragraph": "Impara le regole di sicurezza e prevenzione incendi.",
+    "rating": 4.1,
+    "author": {
+      "image": "image4.jpg",
+      "name": "Luca Fontana",
+      "price": 13.7,
+      "category": "Instructor"
+    }
+  },
+  {
+    "id": 9,
+    "image": "/formazione/card/8.jpg",
+    "category": "Corporate training",
+    "skill": "Project management",
+    "title": "Project Management Avanzato",
+    "paragraph": "Gestione efficace dei progetti aziendali complessi.",
+    "rating": 4.8,
+    "author": {
+      "image": "image9.jpg",
+      "name": "Sara Colombo",
+      "price": 25.99,
+      "category": "Instructor"
+    }
+  },
+  {
+    "id": 10,
+    "image": "/formazione/card/7.jpg",
+    "category": "Online courses",
+    "skill": "Problem solving",
+    "title": "Tecniche di Problem Solving",
+    "paragraph": "Metodologie pratiche per risolvere problemi aziendali.",
+    "rating": 4.3,
+    "author": {
+      "image": "image3.jpg",
+      "name": "Andrea Riva",
+      "price": 16.2,
+      "category": "Instructor"
+    }
+  },
+  {
+    "id": 11,
+    "image": "/formazione/card/10.jpg",
+    "category": "e-Learning platform",
+    "skill": "Risk assessment",
+    "title": "Valutazione dei rischi",
+    "paragraph": "Come identificare e gestire i rischi sul lavoro.",
+    "rating": 4.4,
+    "author": {
+      "image": "image11.jpg",
+      "name": "Paolo Conti",
+      "price": 14.5,
+      "category": "Instructor"
+    }
+  },
+  {
+    "id": 12,
+    "image": "/formazione/card/11.jpg",
+    "category": "Corporate training",
+    "skill": "Team building",
+    "title": "Attività di Team Building",
+    "paragraph": "Esercizi e strategie per rafforzare la collaborazione aziendale.",
+    "rating": 4.5,
+    "author": {
+      "image": "image10.jpg",
+      "name": "Valentina Greco",
+      "price": 21.75,
+      "category": "Instructor"
+    }
+  }
+]
