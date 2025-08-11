@@ -1,6 +1,6 @@
 import "../../index.css";
 
-const AllBanner = ({ image1, image2 }) => {
+const AllBanner = ({ image1, image2, title }) => {
   return (
     <section className="">
       <div
@@ -12,7 +12,7 @@ const AllBanner = ({ image1, image2 }) => {
           style={{ backgroundImage: `url(${image2})` }}
         ></div>
         <h2 className="relative text-5xl text-[#FFFFFF] poppins-semibold max-w-[545px] my-auto py-52 pl-10">
-          Know UnoSicurezza Empowering Learners Worldwide
+          {title}
         </h2>
       </div>
     </section>
