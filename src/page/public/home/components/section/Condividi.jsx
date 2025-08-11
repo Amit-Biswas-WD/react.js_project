@@ -6,7 +6,7 @@ import map from "../../../../../assets/map.png";
 
 const CondividiSection = () => {
   return (
-    <section className="w-[1200px] container mx-auto my-20 grid grid-cols-2 mt-40 mb-20 gap-16">
+    <section className="w-[1200px] container mx-auto my-20 grid grid-cols-2 mt-40 mb-[340px] gap-16">
       <div className="col-span-1">
         <h2 className="Poppins font-semibold text-4xl text-[#252525] mb-3">
           Condividi la tua recensione con noi

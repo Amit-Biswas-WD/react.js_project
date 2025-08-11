@@ -9,14 +9,14 @@
 //   {
 //     id: 2,
 //     icon: "/img/Servizi/wedo/icn2.png",
-//     title: "Parcel delivery service",
+//     title: "Parcel delivery service",
 //     description:
 //       "We pride ourselves on securing great deals and promotions for our customers.",
 //   },
 //   {
 //     id: 3,
 //     icon: "/img/Servizi/wedo/icn3.png",
-//     title: "MBO reward system",
+//     title: "MBOreward system",
 //     description:
 //       "Stay connected with high-quality cable services that deliver reliable and fast internet, television",
 //   },
