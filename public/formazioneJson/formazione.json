@@ -8,7 +8,7 @@
     "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "rating": 4.5,
     "author": {
-      "image": "image7.jpg",
+      "image": "/img/formazione/card/author/1.jpg",
       "name": "Jane Cooper",
       "price": 17.84,
       "category": "Instructor"
@@ -23,7 +23,7 @@
     "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "rating": 4.3,
     "author": {
-      "image": "image2.jpg",
+      "image": "/img/formazione/card/author/3.jpg",
       "name": "Jane Cooper",
       "price": 12.84,
       "category": "Instructor"
@@ -38,7 +38,7 @@
     "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "rating": 3.5,
     "author": {
-      "image": "image5.jpg",
+      "image": "/img/formazione/card/author/2.png",
       "name": "Jane Cooper",
       "price": 19.84,
       "category": "Instructor"
@@ -53,7 +53,7 @@
     "paragraph": "Corso completo per sviluppare capacità di leadership e team management.",
     "rating": 4.7,
     "author": {
-      "image": "image8.jpg",
+      "image": "/img/formazione/card/author/1.jpg",
       "name": "Mario Rossi",
       "price": 22.5,
       "category": "Instructor"
@@ -68,7 +68,7 @@
     "paragraph": "Formazione introduttiva per la sicurezza in ambienti di lavoro.",
     "rating": 4.2,
     "author": {
-      "image": "image1.jpg",
+      "image": "/img/formazione/card/author/3.jpg",
       "name": "Laura Bianchi",
       "price": 15.0,
       "category": "Instructor"
@@ -83,7 +83,7 @@
     "paragraph": "Ottimizza la produttività del team con tecniche di gestione del tempo.",
     "rating": 4.6,
     "author": {
-      "image": "image6.jpg",
+      "image": "/img/formazione/card/author/2.png",
       "name": "Giorgio Verdi",
       "price": 18.99,
       "category": "Instructor"
@@ -98,7 +98,7 @@
     "paragraph": "Tecniche per comunicare chiaramente in contesti professionali.",
     "rating": 4.4,
     "author": {
-      "image": "image12.jpg",
+      "image": "/img/formazione/card/author/1.jpg",
       "name": "Chiara Neri",
       "price": 20.49,
       "category": "Instructor"
@@ -113,7 +113,7 @@
     "paragraph": "Impara le regole di sicurezza e prevenzione incendi.",
     "rating": 4.1,
     "author": {
-      "image": "image4.jpg",
+      "image": "/img/formazione/card/author/2.png",
       "name": "Luca Fontana",
       "price": 13.7,
       "category": "Instructor"
@@ -128,7 +128,7 @@
     "paragraph": "Gestione efficace dei progetti aziendali complessi.",
     "rating": 4.8,
     "author": {
-      "image": "image9.jpg",
+      "image": "/img/formazione/card/author/3.jpg",
       "name": "Sara Colombo",
       "price": 25.99,
       "category": "Instructor"
@@ -143,7 +143,7 @@
     "paragraph": "Metodologie pratiche per risolvere problemi aziendali.",
     "rating": 4.3,
     "author": {
-      "image": "image3.jpg",
+      "image": "/img/formazione/card/author/2.png",
       "name": "Andrea Riva",
       "price": 16.2,
       "category": "Instructor"
@@ -158,7 +158,7 @@
     "paragraph": "Come identificare e gestire i rischi sul lavoro.",
     "rating": 4.4,
     "author": {
-      "image": "image11.jpg",
+      "image": "/img/formazione/card/author/1.jpg",
       "name": "Paolo Conti",
       "price": 14.5,
       "category": "Instructor"
@@ -173,7 +173,7 @@
     "paragraph": "Esercizi e strategie per rafforzare la collaborazione aziendale.",
     "rating": 4.5,
     "author": {
-      "image": "image10.jpg",
+      "image": "/img/formazione/card/author/3.jpg",
       "name": "Valentina Greco",
       "price": 21.75,
       "category": "Instructor"

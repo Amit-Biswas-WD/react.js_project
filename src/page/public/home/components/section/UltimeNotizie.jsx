@@ -64,7 +64,7 @@ const UltimeNotizieSection = () => {
         </div>
         <div className="">
           <div className="mb-8">
-            <img src={img3} alt="" />
+            <img className="w-full" src={img3} alt="" />
           </div>
           <div className="">
             <p className="text_green Poppins font-semibold text-[12px]">
