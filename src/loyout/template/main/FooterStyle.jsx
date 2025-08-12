@@ -8,8 +8,8 @@ import linkedin from "../../../assets/UnoSicurezza/Home/footer_icon/Vector.png";
 const FooterStyle = () => {
   return (
     <section className="max-w-[1500px] mx-auto bg-[#101828]">
-      <div className="grid grid-cols-5 p-14 gap-12">
-        <div className="col-span-1 max-w-[320px] ml-14">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 py-14 gap-12">
+        <div className="col-span-1 max-w-[320px]">
           <img src={icon} alt="" />
           <p className="font-bold text_green">UnoSicurezza</p>
           <p className="text-base plus-jakarta-sans-regular text-[#EAECF0] my-6">
