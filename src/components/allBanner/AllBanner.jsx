@@ -4,7 +4,7 @@ const AllBanner = ({ image1, image2, title }) => {
   return (
     <section className="">
       <div
-        className="bg-cover bg-center relative max-w-[1200px] h-[565px]"
+        className="bg-cover bg-center relative max-w-full h-auto"
         style={{ backgroundImage: `url(${image1})` }}
       >
         <div
