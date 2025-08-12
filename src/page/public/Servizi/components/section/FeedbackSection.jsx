@@ -7,7 +7,7 @@ const data = [
 
 const FeedbackSection = () => {
   return (
-    <section className="max-w-[1000px] container mx-auto my-20">
+    <section className="max-w-7xl mx-auto my-20">
       <h2 className="text-4xl text-center text-[#000000] poppins-medium mb-8">
         Course Feedback
       </h2>

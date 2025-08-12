@@ -13,8 +13,8 @@ const navLink = [
 
 const NavStyle = () => {
   return (
-    <header className="my-8 w-[1440px] container mx-auto">
-      <div className="max-w-[1200px] container mx-auto flex justify-between text-black ">
+    <header className="my-8 max-w-7xl mx-auto">
+      <div className="mx-auto flex justify-between text-black ">
         <div className="">
           <img className="ml-7" src={navImage} alt="" />
           <p className="w-6 h-8 text-[#252525]">UnoSicurezza</p>
@@ -22,7 +22,7 @@ const NavStyle = () => {
         <div>
           <ul className="flex gap-[45px] my-8">
             {navLink.map((nav) => (
-              <li className="">
+              <li key={nav.label} className="">
                 <Link to={nav.path} className="font-normal text-base">
                   {nav.label}
                 </Link>

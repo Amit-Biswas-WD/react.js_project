@@ -24,7 +24,7 @@ const icons = [
 
 const UnoSicurezzaSection = () => {
   return (
-    <section className="w-[1440px] h-[535px] container mx-auto">
+    <section className="max-w-7xl h-[535px] container mx-auto">
       <div className="bg-[#F0FAF7] py-12 flex justify-between my-20">
         <img src={img2} alt="" />
         <div className="">

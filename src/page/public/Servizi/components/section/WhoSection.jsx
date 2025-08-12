@@ -1,6 +1,6 @@
 const WhoSection = () => {
   return (
-    <section className="max-w-[1440px] container mx-auto my-20 bg-[#73BFA1]">
+    <section className="max-w-7xl mx-auto my-20 bg-[#73BFA1]">
       <div className="max-w-[1200px] container mx-auto grid grid-cols-2 gap-28 py-14">
         <div className="my-auto">
           <h2 className="text-5xl poppins-bold text-white">Who We Are</h2>

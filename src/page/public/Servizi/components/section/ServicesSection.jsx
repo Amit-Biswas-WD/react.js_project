@@ -31,7 +31,7 @@
 
 const ServicesSection = () => {
   return (
-    <section className="max-w-[1200px] container mx-auto">
+    <section className="max-w-7xl container mx-auto">
       <div className="text-center mb-6">
         <p className="text_green poppins-medium text-xl mb-1">Our Services</p>
         <h2 className="poppins-bold text-5xl text-[#252525]">What We Do</h2>

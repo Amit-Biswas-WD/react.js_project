@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/formazione/card/4.jpg",
+    "image": "/img/formazione/card/4.jpg",
     "category": "Online courses",
     "skill": "Soft skills",
     "title": "Formazione SEVESO",
@@ -16,7 +16,7 @@
   },
   {
     "id": 2,
-    "image": "/formazione/card/6.jpg",
+    "image": "/img/formazione/card/6.jpg",
     "category": "e-Learning platform",
     "skill": "Safety at work",
     "title": "Formazione per i datori...",
@@ -31,7 +31,7 @@
   },
   {
     "id": 3,
-    "image": "/formazione/card/1.jpg",
+    "image": "/img/formazione/card/1.jpg",
     "category": "Corporate training",
     "skill": "CFP courses",
     "title": "Formazione GENERALE",
@@ -46,7 +46,7 @@
   },
   {
     "id": 4,
-    "image": "/formazione/card/2.jpg",
+    "image": "/img/formazione/card/2.jpg",
     "category": "Online courses",
     "skill": "Leadership skills",
     "title": "Leadership e Gestione",
@@ -61,7 +61,7 @@
   },
   {
     "id": 5,
-    "image": "/formazione/card/9.jpg",
+    "image": "/img/formazione/card/6.jpg",
     "category": "e-Learning platform",
     "skill": "Workplace safety",
     "title": "Sicurezza sul lavoro base",
@@ -76,7 +76,7 @@
   },
   {
     "id": 6,
-    "image": "/formazione/card/12.jpg",
+    "image": "/img/formazione/card/3.jpg",
     "category": "Corporate training",
     "skill": "Time management",
     "title": "Gestione del tempo per aziende",
@@ -91,7 +91,7 @@
   },
   {
     "id": 7,
-    "image": "/formazione/card/3.jpg",
+    "image": "/img/formazione/card/5.jpg",
     "category": "Online courses",
     "skill": "Communication",
     "title": "Comunicazione efficace",
@@ -106,7 +106,7 @@
   },
   {
     "id": 8,
-    "image": "/formazione/card/5.jpg",
+    "image": "/img/formazione/card/4.jpg",
     "category": "e-Learning platform",
     "skill": "Fire safety",
     "title": "Prevenzione incendi",
@@ -121,7 +121,7 @@
   },
   {
     "id": 9,
-    "image": "/formazione/card/8.jpg",
+    "image": "/img/formazione/card/3.jpg",
     "category": "Corporate training",
     "skill": "Project management",
     "title": "Project Management Avanzato",
@@ -136,7 +136,7 @@
   },
   {
     "id": 10,
-    "image": "/formazione/card/7.jpg",
+    "image": "/img/formazione/card/5.jpg",
     "category": "Online courses",
     "skill": "Problem solving",
     "title": "Tecniche di Problem Solving",
@@ -151,7 +151,7 @@
   },
   {
     "id": 11,
-    "image": "/formazione/card/10.jpg",
+    "image": "/img/formazione/card/1.jpg",
     "category": "e-Learning platform",
     "skill": "Risk assessment",
     "title": "Valutazione dei rischi",
@@ -166,7 +166,7 @@
   },
   {
     "id": 12,
-    "image": "/formazione/card/11.jpg",
+    "image": "/img/formazione/card/2.jpg",
     "category": "Corporate training",
     "skill": "Team building",
     "title": "Attività di Team Building",

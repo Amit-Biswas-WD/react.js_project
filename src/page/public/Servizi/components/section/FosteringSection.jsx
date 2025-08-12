@@ -29,7 +29,7 @@ const images = [
 
 const FosteringSection = () => {
   return (
-    <section className="max-w-[1200px] container mx-auto my-20">
+    <section className="max-w-7xl mx-auto my-20">
       <h2 className="text-4xl poppins-semibold text-[#252525] mb-6">
         Fostering a playful & engaging learning environment
       </h2>

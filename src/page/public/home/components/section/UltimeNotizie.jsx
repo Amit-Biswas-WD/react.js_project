@@ -4,7 +4,7 @@ import img3 from "../../../../../assets/UnoSicurezza/Home/notizie/Image3.png";
 
 const UltimeNotizieSection = () => {
   return (
-    <section className="w-[1200px] container mx-auto my-20">
+    <section className="max-w-7xl mx-auto my-20">
       <h2 className="text-2xl Poppins font-medium text-[#252525] mb-8">
         Ultime notizie da UnoSicurezza
       </h2>

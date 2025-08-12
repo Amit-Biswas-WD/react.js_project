@@ -35,7 +35,7 @@ const Data = [
 
 const ChooseSection = () => {
   return (
-    <section className="max-w-[1440px] container mx-auto my-20 bg-[#F0FAF7]">
+    <section className="max-w-7xl mx-auto my-20 bg-[#F0FAF7]">
       <div className="max-w-[1200px] container mx-auto grid grid-cols-3 grid-rows-2 gap-12 py-20 text_green">
         <div className="my-auto">
           <h2 className="text-4xl poppins-semibold text-[#131313] max-w-[274px] mb-2">

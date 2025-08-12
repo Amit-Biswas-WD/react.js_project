@@ -58,7 +58,7 @@ const Data = [
 
 const ExploreProgramsSection = () => {
   return (
-    <section className="w-[1200px] container mx-auto">
+    <section className="max-w-7xl mx-auto">
       <div>
         <h4 className="text_green font-semibold text-base">ExplorePrograms</h4>
         <h2 className="font-semibold text-4xl poppins-semibold text-[#101828] my-5 poppins-medium">

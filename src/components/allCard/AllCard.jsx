@@ -17,7 +17,7 @@ const AllCard = ({ props }) => {
             <img
               className="w-[336px] h-[240px] bg-cover rounded-sm"
               src={image}
-              alt=""
+              alt="Not Found"
             />
             <p className="text_green my-3 font-medium text-base">{category}</p>
             <div className="flex justify-between items-center">
