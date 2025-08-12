@@ -1,0 +1,14 @@
+[
+    {"id": 1, "title": "3-Month Access", "img": "/chisiamo/service/1.jpg", "text": "You have 3 months from the date of purchase to complete your course, giving you plenty of flexibility."},
+    {"id": 2, "title": "Learn at Your Own Pace", "img": "/chisiamo/service/2.jpg", "text": "Start, stop, and resume your course whenever you want. The platform remembers your progress."},
+    {"id": 3, "title": "Validated Certificate", "img": "/chisiamo/service/3.jpg", "text": "Receive a formal certificate with your name, tax code, and course details, perfect for professional records."},
+    {"id": 4, "title": "Instant Access", "img": "/chisiamo/service/4.jpg", "text": "Receive a formal certificate with your name, tax code, and course details, perfect for professional records."},
+    {"id": 5, "title": "Brand Your Certificates", "img": "/chisiamo/service/5.jpg", "text": "Option to add your company logo to the certificates, reinforcing your brand."},
+    {"id": 6, "title": "Compliance-Ready Data", "img": "/chisiamo/service/6.jpg", "text": "Ensure certificates are valid by having employees complete their personal data (Name, CF, etc.) upon their first login."},
+    {"id": 7, "title": "Detailed Reporting", "img": "/chisiamo/service/7.jpg", "text": "Monitor time spent, course status, and other key metrics required for compliance."},
+    {"id": 8, "title": "User Management", "img": "/chisiamo/service/8.jpg", "text": "See all available and activated licenses. Manually assign courses to your staff."},
+    {"id": 9, "title": "TCustom Certificates", "img": "/chisiamo/service/9.jpg", "text": "Generate certificates for your students with your own templates and branding."},
+    {"id": 10, "title": "Student Management", "img": "/chisiamo/service/10.jpg", "text": "A dedicated dashboard to manage your student enrollments, track their activity, and access their data."},
+    {"id": 11, "title": "Full Content Control", "img": "/chisiamo/service/11.jpg", "text": "You are in complete charge of the courses you offer. Upload, update, and manage your material at any time."},
+    {"id": 12, "title": "White-Label & Branding", "img": "/chisiamo/service/12.jpg", "text": "Customize the platform with your logo, colors, and domain to create a seamless brand experience."}
+]

@@ -1,3 +1,5 @@
+import AllService from "./../../../../../components/allService/AllService";
+
 // const Data = [
 //   {
 //     id: 1,
@@ -34,38 +36,32 @@ const ServicesSection = () => {
     <section className="max-w-7xl container mx-auto">
       <div className="text-center mb-6">
         <p className="text_green poppins-medium text-xl mb-1">Our Services</p>
-        <h2 className="poppins-bold text-5xl text-[#252525]">What We Do</h2>
       </div>
 
-      <div className="grid grid-cols-3 gap-7">
-        <div className="">
-          <div className="col-span-1 w-[384px] h-[252px] bg-[#F3F3F3] px-8 py-12 rounded-lg mb-6">
-          <img className="w-[37px] h-[41px]" src="/img/Servizi/wedo/icn1.png" alt="" />
-          <h2 className="poppins-bold text-2xl text-[#5C5C5C] py-3">Structural smart working</h2>
-          <p className="text-base plus-jakarta-sans-regular text-[#787878]">With years of experience in the sales and marketing industry, our team has a deep</p>
-        </div>
-        <div className="col-span-1 w-[384px] h-[252px] bg-[#F3F3F3] px-8 py-12 rounded-lg">
-          <img className="w-[37px] h-[41px]" src="/img/Servizi/wedo/icn2.png" alt="" />
-          <h2 className="poppins-bold text-2xl text-[#5C5C5C] py-3">Parcel delivery service</h2>
-          <p className="text-base plus-jakarta-sans-regular text-[#787878]">With years of experience in the sales and marketing industry, our team has a deep</p>
-        </div>
-        </div>
-        <div className="my-auto">
-          <img className="w-[384px] h-[447px] bg-cover object-cover my-auto" src="/img/Servizi/wedo/img.png" alt="" />
-        </div>
-        <div>
-          <div className="col-span-1 w-[384px] h-[252px] bg-[#F3F3F3] px-8 py-12 rounded-lg mb-6">
-          <img className="w-[37px] h-[41px]" src="/img/Servizi/wedo/icn3.png" alt="" />
-          <h2 className="poppins-bold text-2xl text-[#5C5C5C] py-3">MBO reward system</h2>
-          <p className="text-base plus-jakarta-sans-regular text-[#787878]">With years of experience in the sales and marketing industry, our team has a deep</p>
-        </div>
-        <div className="col-span-1 w-[384px] h-[252px] bg-[#F3F3F3] px-8 py-12 rounded-lg">
-          <img className="w-[37px] h-[41px]" src="/img/Servizi/wedo/icn4.png" alt="" />
-          <h2 className="poppins-bold text-2xl text-[#5C5C5C] py-3">Corporate welfare</h2>
-          <p className="text-base plus-jakarta-sans-regular text-[#787878]">With years of experience in the sales and marketing industry, our team has a deep</p>
-        </div>
-        </div>
-      </div>
+      <AllService
+        heading={"What We Do"}
+        image={"/img/Servizi/wedo/img.png"}
+        icon1={"/img/Servizi/wedo/icn1.png"}
+        icon2={"/img/Servizi/wedo/icn2.png"}
+        icon3={"/img/Servizi/wedo/icn3.png"}
+        icon4={"/img/Servizi/wedo/icn4.png"}
+        title1={"Structural smart working"}
+        title2={"Parcel delivery service"}
+        title3={"MBO reward system"}
+        title4={"Corporate welfare"}
+        p1={
+          "With years of experience in the sales and marketing industry, our team has a deep "
+        }
+        p2={
+          "We pride ourselves on securing great deals and promotions for our customers."
+        }
+        p3={
+          "Stay connected with high-quality cable services that deliver reliable and fast internet, television"
+        }
+        p4={
+          "We understand that navigating the solar and cable landscape can be overwhelming."
+        }
+      />
     </section>
   );
 };

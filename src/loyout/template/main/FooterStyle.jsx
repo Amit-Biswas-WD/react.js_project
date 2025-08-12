@@ -7,7 +7,7 @@ import linkedin from "../../../assets/UnoSicurezza/Home/footer_icon/Vector.png";
 
 const FooterStyle = () => {
   return (
-    <section className="max-w-7xl mx-auto bg-[#101828]">
+    <section className="max-w-[1500px] mx-auto bg-[#101828]">
       <div className="grid grid-cols-5 p-14 gap-12">
         <div className="col-span-1 max-w-[320px] ml-14">
           <img src={icon} alt="" />

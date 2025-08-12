@@ -4,6 +4,8 @@ import HomeView from "../page/public/home/HomeView";
 import Servizi from "../page/public/Servizi/servizi";
 import FormazioneView from "../page/public/formazione/FormazioneView";
 import ChisiamoView from "../page/public/chisiamo/ChisiamoView";
+import CollaboraView from "../page/public/collabora/CollaboraView";
+import ContattaciView from "../page/public/contattaci/ContattaciView";
 
 const AppRouter = createBrowserRouter([
   {
@@ -15,6 +17,8 @@ const AppRouter = createBrowserRouter([
       { path: "/servizi", element: <Servizi /> },
       { path: "/sormazione", element: <FormazioneView /> },
       { path: "/chisiamo", element: <ChisiamoView/> },
+      { path: "/collabora", element: <CollaboraView/> },
+      { path: "/contattaci", element: <ContattaciView/> },
     ],
   },
 ]);
