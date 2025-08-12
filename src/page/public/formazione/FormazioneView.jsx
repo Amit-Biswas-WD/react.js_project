@@ -1,12 +1,14 @@
 
+import AdministrationSection from './components/AdministrationSection';
 import BannerSection from './components/BannerSection';
-import CoursesCategory from './components/CoursesCategory';
+import CoursesCategorySection from './components/CoursesCategorySection';
 
 const FormazioneView = () => {
   return (
     <>
     <BannerSection/>
-    <CoursesCategory/>
+    <CoursesCategorySection/>
+    <AdministrationSection/>
     </>
   )
 }

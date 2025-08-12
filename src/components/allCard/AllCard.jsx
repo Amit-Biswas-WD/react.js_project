@@ -3,7 +3,7 @@ const AllCard = ({ props }) => {
     props;
   return (
     <section className="shadow-[#99999b]">
-      <div className="col-span-1 p-4 border-2 rounded-lg border-[#FFFFFF] shadow">
+      <div className="col-span-1 p-4 border-2 rounded-lg border-[#FFFFFF] shadow flex flex-col h-full">
         <div className="Poppins">
           <img
             className="w-[336px] h-[240px] bg-cover rounded-sm"
@@ -24,7 +24,7 @@ const AllCard = ({ props }) => {
             <p>{rating} </p>
           </div>
         </div>
-        <div className="plus-jakarta-sans-regular flex items-center justify-between gap-4 my-3">
+        <div className="plus-jakarta-sans-regular flex items-center justify-between gap-4 my-3 mt-auto">
           <div className="flex items-center gap-4">
             <img className="w-[30px] rounded-full" src={author.image} alt="" />
             <div>
