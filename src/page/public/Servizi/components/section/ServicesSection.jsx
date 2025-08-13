@@ -33,7 +33,7 @@ import AllService from "./../../../../../components/allService/AllService";
 
 const ServicesSection = () => {
   return (
-    <section className="max-w-7xl container mx-auto">
+    <section className="max-w-7xl container mx-auto px-4">
       <div className="text-center mb-6">
         <p className="text_green poppins-medium text-xl mb-1">Our Services</p>
       </div>

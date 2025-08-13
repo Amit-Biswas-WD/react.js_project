@@ -149,11 +149,6 @@ const ExploreProgramsSection = () => {
           sicuramente utili.
         </p>
       </div>
-      {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 my-8">
-        {Data.map((items) => (
-          <AllCard key={items.id} props={items} />
-        ))}
-      </div> */}
 
       <div className="my-3">
         <Swiper

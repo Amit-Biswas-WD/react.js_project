@@ -1,8 +1,8 @@
 const WhoSection = () => {
   return (
-    <section className="max-w-7xl mx-auto my-20 bg-[#73BFA1]">
-      <div className="max-w-[1200px] container mx-auto grid grid-cols-2 gap-28 py-14">
-        <div className="my-auto">
+    <section className="max-w-7xl mx-auto my-20 bg-[#73BFA1] px-4">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 sm:grid-cols-1 gap-14 py-14">
+        <div className="my-auto lg:ml-10 col-span-1">
           <h2 className="text-5xl poppins-bold text-white">Who We Are</h2>
           <p className="plus-jakarta-sans-regular text-base text-white my-8">
             Welcome to our sales and marketing company, where we specialize in
@@ -24,15 +24,17 @@ const WhoSection = () => {
         <div className="">
           <div className="relative">
             <img
-              className="w-[291px] h-[457px] bg-cover object-cover rounded-xl"
+              className="sm:w-full md:w-[291px] h-[457px] bg-cover object-cover rounded-xl"
               src="/img/Servizi/who/img2.jpg"
               alt=""
             />
-            <img
-              className="absolute top-24 left-[220px] w-[323px] h-[330px] bg-cover object-cover rounded-[10px]"
-              src="/img/Servizi/who/img1.jpg"
-              alt=""
-            />
+            <div className="hidden lg:block">
+              <img
+                className="absolute top-24 left-[220px] w-[323px] h-[330px] bg-cover object-cover rounded-[10px]"
+                src="/img/Servizi/who/img1.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

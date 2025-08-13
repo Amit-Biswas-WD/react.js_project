@@ -1,4 +1,8 @@
 import "../../../../../index.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const images = [
   {
@@ -25,6 +29,22 @@ const images = [
     paragraph:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
+  {
+    id: 4,
+    bg_image: "/img/Servizi/cards/img1.png",
+    cover: "/img/Servizi/cards/sfa.png",
+    title: "Soft Skills",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+  {
+    id: 5,
+    bg_image: "/img/Servizi/cards/img2.png",
+    cover: "/img/Servizi/cards/sfa.png",
+    title: "CFP Courses",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
 ];
 
 const FosteringSection = () => {
@@ -34,22 +54,42 @@ const FosteringSection = () => {
         Fostering a playful & engaging learning environment
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-        {images.map((img) => (
-          <div
-            key={img.id}
-            className="relative bg-cover bg-center rounded-lg overflow-hidden w-[384px] h-[432px]"
-            style={{ backgroundImage: `url(${img.bg_image})` }}
-          >
-            <div
-              className="bg-cover bg-center absolute top-0 left-0 w-full h-full text-white pl-4"
-              style={{ backgroundImage: `url(${img.cover})` }}
-            >
-              <h2 className="text-2xl poppins-bold my-6">Safety At Work</h2>
-              <p className="plus-jakarta-sans-regular text-base">{img.paragraph}</p>
-            </div>
-          </div>
-        ))}
+      <div className="">
+        <Swiper
+          pagination={{ clickable: true }}
+          modules={[Pagination]}
+          className="mySwiper"
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+          spaceBetween={16}
+          style={{
+            "--swiper-pagination-bottom": "20px",
+            marginBottom: "32px",
+          }}
+        >
+          {images.map((img) => (
+            <SwiperSlide key={img.id}>
+              <div
+                key={img.id}
+                className="col-span-1 gap-4 relative bg-cover bg-center rounded-lg overflow-hidden w-[384px] h-[432px]"
+                style={{ backgroundImage: `url(${img.bg_image})` }}
+              >
+                <div
+                  className="bg-cover bg-center absolute top-0 left-0 w-full h-full text-white pl-4"
+                  style={{ backgroundImage: `url(${img.cover})` }}
+                >
+                  <h2 className="text-2xl poppins-bold my-6">Safety At Work</h2>
+                  <p className="plus-jakarta-sans-regular text-base">
+                    {img.paragraph}
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </section>
   );
