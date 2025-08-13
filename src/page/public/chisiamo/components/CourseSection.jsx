@@ -4,8 +4,8 @@ import "../../../../index.css";
 const CourseSection = () => {
   return (
     <section className="max-w-7xl mx-auto">
-      <div className="flex gap-20 mx-auto my-4 mb-20">
-        <div className="my-auto">
+      <div className="flex flex-col md:flex-row gap-20 mx-auto my-4 mb-20">
+        <div className="my-auto order-1 md:order-1 lg:order-1">
           <p className="poppins-semibold text-5xl text-[#505050]">
             Your Course, Your Schedule, Your Success.
           </p>
@@ -18,8 +18,9 @@ const CourseSection = () => {
             <StyleButton props={"Browse Our Courses"} />
           </div>
         </div>
-        <div>
-          <img src={"/img/chisiamo/banner/1.jpg"} alt="" />
+
+        <div className="order-2 md:order-2 lg:order-2">
+          <img src="/img/chisiamo/banner/1.jpg" alt="" />
         </div>
       </div>
     </section>
