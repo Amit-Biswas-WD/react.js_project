@@ -2,10 +2,10 @@ import StyleButton from "../../../../../components/Button/StyleButton";
 
 const BannerSection = () => {
   return (
-    <section className="max-w-7xl mx-auto">
-      <div className="flex gap-20 mx-auto my-4 mb-20">
-        <div className="my-auto">
-          <h2 className="text-[76px] font-semibold text-[#73BFA1] ">
+    <section className="max-w-7xl mx-auto px-4">
+      <div className="grid md:grid-cols-2 md:gap-20 sm:gap-8 mx-auto my-4 mb-20">
+        <div className="my-auto col-span-1 order-2 md:order-1">
+          <h2 className="lg:text-[76px] text-6xl md:my-4 sm:mt-6 font-semibold text-[#73BFA1] max-w-[519px]">
             UnoSicurezza
           </h2>
           <p className="font-medium text-xl">
@@ -22,8 +22,8 @@ const BannerSection = () => {
             <StyleButton props={"Esplora i nostri servizi"} />
           </div>
         </div>
-        <div>
-          <img src={"public/img/servizi/banner/img.webp"} alt="" />
+        <div className="order-1 md:order-2">
+          <img className="" src={"public/img/servizi/banner/img.webp"} alt="" />
         </div>
       </div>
     </section>

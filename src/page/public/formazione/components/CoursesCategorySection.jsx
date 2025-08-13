@@ -3,6 +3,7 @@ import CategoryAxios from "./category/CategoryAxios";
 import { useParams } from "react-router-dom";
 import Category from "./category/Category";
 import CategoryButton from "./category/CategoryButton";
+import "../../../../index.css";
 
 const CoursesCategorySection = () => {
   const [data] = CategoryAxios([]);
@@ -29,7 +30,7 @@ const CoursesCategorySection = () => {
 
   return (
     <section className="max-w-7xl container mx-auto my-20">
-      <h2 className="text-4xl text-[#252525] poppins-semibold text-center mx-auto w-[768px]">
+      <h2 className="text-4xl text-[#252525] poppins-semibold text-center mx-auto max-w-[768px] mb-10">
         Online courses and eLearning platform for corporate training
       </h2>
 

@@ -7,6 +7,7 @@ import image1 from "../../../../../assets/UnoSicurezza/Home/explore/author/5412a
 import image2 from "../../../../../assets/UnoSicurezza/Home/explore/author/37042173fddbe9ba42957f586917c78c17fef829.jpg";
 import image3 from "../../../../../assets/UnoSicurezza/Home/explore/author/2cc3ba92c0a402567bf37e095262f204b3eb3c99.jpg";
 import AllCard from "../../../../../components/allCard/AllCard";
+import "../../../../../index.css";
 
 const Data = [
   {
@@ -58,10 +59,10 @@ const Data = [
 
 const ExploreProgramsSection = () => {
   return (
-    <section className="max-w-7xl mx-auto">
+    <section className="max-w-7xl mx-auto px-4">
       <div>
         <h4 className="text_green font-semibold text-base">ExplorePrograms</h4>
-        <h2 className="font-semibold text-4xl poppins-semibold text-[#101828] my-5 poppins-medium">
+        <h2 className="font-semibold text-4xl poppins-semibold text-[#101828] my-3 poppins-medium">
           Esplora il mostro catalgo corst
         </h2>
         <p className="poppins-medium text-xl text-[#667085]">
@@ -69,7 +70,7 @@ const ExploreProgramsSection = () => {
           sicuramente utili.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-6 my-8">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 my-8">
         {Data.map((items) => (
           <AllCard key={items.id} props={items} />
         ))}

@@ -6,7 +6,7 @@ const BannerSection = () => {
       <AllBanner
         image1={"/img/Servizi/banner/img.webp"}
         image2={"/img/Servizi/banner/background.png"}
-        title={"Know UnoSicurezza Empowering Learners Worldwide 3"}
+        title={"Know UnoSicurezza Empowering Learners Worldwide 4"}
       />
     </section>
   );

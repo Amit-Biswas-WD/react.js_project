@@ -4,15 +4,16 @@ import img3 from "../../../../../assets/UnoSicurezza/Home/notizie/Image3.png";
 
 const UltimeNotizieSection = () => {
   return (
-    <section className="max-w-7xl mx-auto my-20">
+    <section className="max-w-7xl mx-auto my-20 px-4">
       <h2 className="text-2xl Poppins font-medium text-[#252525] mb-8">
         Ultime notizie da UnoSicurezza
       </h2>
-      <div className="grid grid-cols-2 gap-10">
-        <div className="col-span-1">
+
+      <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-10">
+        <div className="col-span-1 order-2 md:order-1">
           <div className="flex gap-8 mb-8">
             <div className="">
-              <img className="w-[320px] h-[200px]" src={img1} alt="" />
+              <img className="w-[320px] h-[200px] object-cover bg-cover" src={img1} alt="" />
             </div>
             <div className="">
               <p className="text_green Poppins font-semibold text-[12px]">
@@ -22,7 +23,7 @@ const UltimeNotizieSection = () => {
                 Three Pillars of User Delight
               </h2>
               <p className="text-base plus-jakarta-sans-regular">
-                Delight can be experienced <br /> viscerally, behaviourally, and{" "}
+                Delight can be experienced <br /> viscerally, behaviourally, and
                 <br />
                 reflectively. A great design is ...
               </p>
@@ -38,7 +39,11 @@ const UltimeNotizieSection = () => {
           </div>
           <div className="flex gap-8">
             <div className="col-span-1">
-              <img className="w-[320px] h-[200px]" src={img2} alt="" />
+              <img
+                className="w-[320px] h-[200px] object-cover bg-cover"
+                src={img2}
+                alt=""
+              />
             </div>
             <div className="">
               <p className="text_green Poppins font-semibold text-[12px]">
@@ -62,7 +67,7 @@ const UltimeNotizieSection = () => {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="order-1 md:order-2">
           <div className="mb-8">
             <img className="w-full" src={img3} alt="" />
           </div>

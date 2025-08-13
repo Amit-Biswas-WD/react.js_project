@@ -7,7 +7,7 @@ import linkedin from "../../../assets/UnoSicurezza/Home/footer_icon/Vector.png";
 
 const FooterStyle = () => {
   return (
-    <section className="max-w-[1500px] mx-auto bg-[#101828]">
+    <section className="max-w-[1500px] mx-auto bg-[#101828] md:mt-0 sm:mt-[480px] px-4">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 py-14 gap-12">
         <div className="col-span-1 max-w-[320px]">
           <img src={icon} alt="" />
@@ -85,8 +85,8 @@ const FooterStyle = () => {
           </p>
         </div>
       </div>
-      <div className="max-w-[1216px] container mx-auto flex justify-between pb-10">
-        <div className="text-[#98A2B3]">© 2022 UnoSicurezza. All rights reserved.</div>
+      <div className="max-w-[1216px] container mx-auto md:flex justify-between pb-10">
+        <div className="text-[#98A2B3] my-10">© 2022 UnoSicurezza. All rights reserved.</div>
         <div className="flex items-center gap-8">
           <img src={twitter} alt="" />
           <img src={linkedin} alt="" />

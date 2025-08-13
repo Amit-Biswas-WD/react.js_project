@@ -15,7 +15,7 @@ const AppRouter = createBrowserRouter([
       { index: true, element: <HomeView /> },
       { path: "/home", element: <HomeView /> },
       { path: "/servizi", element: <Servizi /> },
-      { path: "/sormazione", element: <FormazioneView /> },
+      { path: "/formazione", element: <FormazioneView /> },
       { path: "/chisiamo", element: <ChisiamoView/> },
       { path: "/collabora", element: <CollaboraView/> },
       { path: "/contattaci", element: <ContattaciView/> },

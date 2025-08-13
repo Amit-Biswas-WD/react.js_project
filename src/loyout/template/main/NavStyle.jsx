@@ -5,7 +5,7 @@ import StyleButton from "../../../components/Button/StyleButton";
 const navLink = [
   { label: "Home", path: "/home" },
   { label: "servizi", path: "/servizi" },
-  { label: "Formazione", path: "/sormazione" },
+  { label: "Formazione", path: "/formazione" },
   { label: "Chi siamo", path: "/chisiamo" },
   { label: "Collabora con noi", path: "/collabora" },
   { label: "Contattaci", path: "/contattaci" },

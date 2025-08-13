@@ -24,9 +24,11 @@ const icons = [
 
 const UnoSicurezzaSection = () => {
   return (
-    <section className="max-w-[1500px] h-[535px] container mx-auto">
+    <section className="max-w-[1500px] h-[535px] container mx-auto px-4">
       <div className="bg-[#F0FAF7] py-12 flex justify-between my-20">
-        <img src={img2} alt="" />
+        <div className="md:block sm:hidden">
+          <img src={img2} alt="" />
+        </div>
         <div className="">
           <div className="flex justify-center">
             <div>
@@ -35,7 +37,7 @@ const UnoSicurezzaSection = () => {
             </div>
           </div>
           <div className="flex justify-center text-center my-8">
-            <p className="Poppins text-[#505050] font-medium text-xl w-[750px]">
+            <p className="Poppins text-[#505050] font-medium text-xl max-w-[750px]">
               "La nostra piattaforma è in possesso di certificazioni italiane
               riconosciute, che garantiscono eccellenza, conformità e
               affidabilità. (Certificazioni valide a livello nazionale in
@@ -53,7 +55,9 @@ const UnoSicurezzaSection = () => {
             ))}
           </div>
         </div>
-        <img src={img3} alt="" />
+        <div className="md:block sm:hidden">
+          <img src={img3} alt="" />
+        </div>
       </div>
     </section>
   );
