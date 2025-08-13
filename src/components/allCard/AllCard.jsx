@@ -20,7 +20,7 @@ const AllCard = ({ props }) => {
             <p className="text-base font-normal plus-jakarta-sans-regular">
               {paragraph}
             </p>
-            <p>{rating} </p>
+            <p className="mt-4">{rating} </p>
           </div>
         </div>
         <div className="plus-jakarta-sans-regular flex items-center justify-between gap-4 my-3 mt-auto">

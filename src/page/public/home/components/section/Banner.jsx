@@ -23,7 +23,7 @@ const BannerSection = () => {
           </div>
         </div>
         <div className="order-1 md:order-2">
-          <img className="" src={"public/img/servizi/banner/img.webp"} alt="" />
+          <img className="" src={"public/img/servizi/banner/img.png"} alt="" />
         </div>
       </div>
     </section>

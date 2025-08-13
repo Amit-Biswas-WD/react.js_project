@@ -57,10 +57,10 @@ const UltimeNotizieSection = () => {
                 <br /> reflectively. A great design is ...
               </p>
               <div className="flex gap-4 my-4">
-                <h2 className="text-[14px] text-[#C11574] plus-jakarta-sans-regular bg-[#FDF2FA] pt-[3px] py-1 px-2 text-base rounded-[14px] text-center">
+                <h2 className="text-[14px] text-[#C11574] plus-jakarta-sans-regular bg-[#FDF2FA] pt-[3px] py-1 px-2 text-base rounded-[14px] text-center w-[83px] h-[25px]">
                   Research
                 </h2>
-                <h2 className="text-[14px] text-[#026AA2] plus-jakarta-sans-regular bg-[#F0F9FF] pt-[3px] py-1 px-2 text-base rounded-[14px] text-center">
+                <h2 className="text-[14px] text-[#026AA2] plus-jakarta-sans-regular bg-[#F0F9FF] pt-[3px] py-1 px-2 text-base rounded-[14px] text-center w-[83px] h-[25px]">
                   Soft skills
                 </h2>
               </div>

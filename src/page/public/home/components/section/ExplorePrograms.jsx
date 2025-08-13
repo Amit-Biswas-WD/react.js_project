@@ -4,10 +4,14 @@ import img2 from "../../../../../assets/UnoSicurezza/Home/explore/e0f0d8d9ab0592
 import img3 from "../../../../../assets/UnoSicurezza/Home/explore/0b922a7202cdacb6e1f64689fd1d756a43a1824b.jpg";
 
 import image1 from "../../../../../assets/UnoSicurezza/Home/explore/author/5412a2bcc1a0b62fe5e42bf0f9af1ac1d77a35ab.png";
-import image2 from "../../../../../assets/UnoSicurezza/Home/explore/author/37042173fddbe9ba42957f586917c78c17fef829.jpg";
 import image3 from "../../../../../assets/UnoSicurezza/Home/explore/author/2cc3ba92c0a402567bf37e095262f204b3eb3c99.jpg";
 import AllCard from "../../../../../components/allCard/AllCard";
 import "../../../../../index.css";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const Data = [
   {
@@ -34,7 +38,7 @@ const Data = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     rating: 4.3,
     author: {
-      image: image2,
+      image: image3,
       name: "Jane Cooper",
       price: 12.84,
       category: "Instructor",
@@ -42,6 +46,81 @@ const Data = [
   },
   {
     id: 3,
+    image: img3,
+    category: "CFP courses",
+    title: "Formazione GENERALE",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    rating: 3.5,
+    author: {
+      image: image3,
+      name: "Jane Cooper",
+      price: 19.84,
+      category: "Instructor",
+    },
+  },
+  {
+    id: 4,
+    image: img3,
+    category: "CFP courses",
+    title: "Formazione GENERALE",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    rating: 3.5,
+    author: {
+      image: image3,
+      name: "Jane Cooper",
+      price: 19.84,
+      category: "Instructor",
+    },
+  },
+  {
+    id: 5,
+    image: img1,
+    category: "Soft skills",
+    title: "Formazione SEVESO",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    rating: 4.5,
+    author: {
+      image: image1,
+      name: "Jane Cooper",
+      price: 17.84,
+      category: "Instructor",
+    },
+  },
+  {
+    id: 6,
+    image: img2,
+    category: "Safety at work",
+    title: "Formazione per i datori...",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    rating: 4.3,
+    author: {
+      image: image1,
+      name: "Jane Cooper",
+      price: 12.84,
+      category: "Instructor",
+    },
+  },
+  {
+    id: 7,
+    image: img3,
+    category: "CFP courses",
+    title: "Formazione GENERALE",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    rating: 3.5,
+    author: {
+      image: image3,
+      name: "Jane Cooper",
+      price: 19.84,
+      category: "Instructor",
+    },
+  },
+  {
+    id: 8,
     image: img3,
     category: "CFP courses",
     title: "Formazione GENERALE",
@@ -70,11 +149,36 @@ const ExploreProgramsSection = () => {
           sicuramente utili.
         </p>
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 my-8">
+      {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 my-8">
         {Data.map((items) => (
           <AllCard key={items.id} props={items} />
         ))}
+      </div> */}
+
+      <div className="my-3">
+        <Swiper
+          pagination={{ clickable: true }}
+          modules={[Pagination]}
+          className="mySwiper"
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+          spaceBetween={16}
+          style={{
+            "--swiper-pagination-bottom": "20px",
+            marginBottom: "32px",
+          }}
+        >
+          {Data.map((item) => (
+            <SwiperSlide key={item.id}>
+              <AllCard props={item} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
+
       <div className="text-center my-6 Poppins font-semibold text-base">
         <button className="btn border rounded-[8px] border-[#c2c1c5] bg-[#F9FAFB] text-[#252525] font-semibold w-[236px] h-[44px]">
           Esplora tutti i programmi
