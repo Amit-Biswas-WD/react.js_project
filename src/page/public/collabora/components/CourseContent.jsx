@@ -7,6 +7,7 @@ import TabPanel from "@mui/lab/TabPanel";
 import CourseInfo from "./button/CourseInfo";
 import Reviews from "./button/Reviews";
 import "../../../../index.css";
+import EnrollNow from "./button/EnrollNow";
 
 const CourseContent = () => {
   const [value, setValue] = React.useState("1");
@@ -58,7 +59,9 @@ const CourseContent = () => {
         </div>
       </div>
 
-      <div className=""></div>
+      <div className="">
+        <EnrollNow/>
+      </div>
     </section>
   );
 };
