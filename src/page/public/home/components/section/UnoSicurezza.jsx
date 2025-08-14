@@ -24,7 +24,7 @@ const icons = [
 
 const UnoSicurezzaSection = () => {
   return (
-    <section className="max-w-[1500px] h-[535px] container mx-auto px-4">
+    <section className="max-w-[1500px] mx-auto max-h-[535px] px-4">
       <div className="bg-[#F0FAF7] py-12 flex justify-between my-20">
         <div className="md:block sm:hidden">
           <img src={img2} alt="" />
@@ -44,7 +44,7 @@ const UnoSicurezzaSection = () => {
               Italia.)"
             </p>
           </div>
-          <div className="container mx-auto grid grid-cols-4 grid-rows-2 gap-10 max-w-[523px] max-h-[147px]">
+          <div className="mx-auto grid grid-cols-4 grid-rows-2 gap-10 max-w-[523px] max-h-[147px]">
             {icons.map((icon) => (
               <img
                 className="row-span-2 w-[59px] h-[57px]"

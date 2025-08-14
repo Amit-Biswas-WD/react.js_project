@@ -16,7 +16,7 @@ const NavStyle = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="my-8 max-w-7xl mx-auto">
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <div className="mx-auto flex justify-between text-black ">
           <div className="">
             <img className="ml-7" src={navImage} alt="" />
@@ -38,7 +38,7 @@ const NavStyle = () => {
           </div>
         </div>
       </div>
-      <div className="block md:hidden px-4 overflow-hidden">
+      <div className="block lg:hidden px-4 overflow-hidden">
         <div className="flex justify-end">
           <button
             onClick={() => setIsOpen(!isOpen)}

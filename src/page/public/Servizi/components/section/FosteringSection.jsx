@@ -60,11 +60,10 @@ const FosteringSection = () => {
           modules={[Pagination]}
           className="mySwiper"
           breakpoints={{
-            640: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
+            640: { slidesPerView: 1, spaceBetween: 16 },
+            768: { slidesPerView: 2, spaceBetween: 24 },
+            1024: { slidesPerView: 3, spaceBetween: 32 },
           }}
-          spaceBetween={16}
           style={{
             "--swiper-pagination-bottom": "20px",
             marginBottom: "32px",
@@ -73,16 +72,17 @@ const FosteringSection = () => {
           {images.map((img) => (
             <SwiperSlide key={img.id}>
               <div
-                key={img.id}
-                className="col-span-1 gap-4 relative bg-cover bg-center rounded-lg overflow-hidden w-[384px] h-[432px]"
+                className="relative bg-cover bg-center rounded-lg overflow-hidden w-full max-w-[384px] aspect-[384/432] mx-auto"
                 style={{ backgroundImage: `url(${img.bg_image})` }}
               >
                 <div
-                  className="bg-cover bg-center absolute top-0 left-0 w-full h-full text-white pl-4"
+                  className="bg-cover bg-center absolute top-0 left-0 w-full h-full text-white p-4 sm:p-6"
                   style={{ backgroundImage: `url(${img.cover})` }}
                 >
-                  <h2 className="text-2xl poppins-bold my-6">Safety At Work</h2>
-                  <p className="plus-jakarta-sans-regular text-base">
+                  <h2 className="text-lg sm:text-xl md:text-2xl poppins-bold mb-4">
+                    Safety At Work
+                  </h2>
+                  <p className="plus-jakarta-sans-regular text-sm sm:text-base leading-relaxed">
                     {img.paragraph}
                   </p>
                 </div>

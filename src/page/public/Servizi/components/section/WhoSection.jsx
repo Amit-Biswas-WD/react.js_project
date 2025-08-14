@@ -12,11 +12,11 @@ const WhoSection = () => {
             daunting task, which is why we're here to make the process easier
             and more affordable for you.
           </p>
-          <div className="flex items-center gap-10">
-            <button className="text-black bg-white text-lg poppins-medium px-8 py-2 rounded-4xl">
+          <div className="flex items-center gap-8">
+            <button className="text-black bg-white text-lg poppins-medium px-2 sm:px-4 md:px-4 lg:px-8 py-2 rounded-full">
               Read More
             </button>
-            <button className="bg-[#505050] text-white text-lg poppins-medium px-8 py-2 rounded-4xl">
+            <button className="text-white bg-[#505050] text-lg poppins-medium px-2 sm:px-4 md:px-4 lg:px-8 py-2 rounded-full">
               Contact us today
             </button>
           </div>
