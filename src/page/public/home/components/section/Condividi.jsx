@@ -56,7 +56,6 @@ const CondividiSection = () => {
         </button>
       </div>
 
-      {/* md: */}
       <div className="hidden md:block relative sm:mt-10">
         <img
           className="absolute -right-[1px] -top-[70px] max-w-[1000px] max-h-[640px]"
@@ -91,7 +90,6 @@ const CondividiSection = () => {
         </div>
       </div>
 
-      {/* sm: */}
       <div className="block md:hidden relative">
         <div className="absolute -right-[1px] -top-[70px]">
           <img
