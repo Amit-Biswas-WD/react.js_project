@@ -58,25 +58,6 @@ const CertificateSection = () => {
             </p>
           </div>
 
-          {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 lg:gap-8 pb-10 lg:pb-20 place-items-center">
-            {data.map((data) => (
-              <div
-                key={data.step}
-                className="bg-white rounded-lg p-4 lg:p-6 max-w-[384px] w-full"
-              >
-                <h2 className="poppins-semibold text-[32px] lg:text-[44px] text_green">
-                  {data.step}
-                </h2>
-                <h2 className="poppins-bold text-xl lg:text-2xl text-[#5C5C5C] my-2">
-                  {data.title}
-                </h2>
-                <p className="text-[#787878] text-sm lg:text-base plus-jakarta-sans-regular">
-                  {data.description}
-                </p>
-              </div>
-            ))}
-          </div> */}
-
           <Swiper
             pagination={{ clickable: true }}
             modules={[Pagination]}
