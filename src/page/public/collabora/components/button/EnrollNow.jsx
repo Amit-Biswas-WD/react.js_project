@@ -1,4 +1,4 @@
-import { Link } from "react-aria-components";
+    import { Link } from 'react-router-dom';
 import "../../../../../index.css";
 
 const EnrollNow = () => {
@@ -6,7 +6,7 @@ const EnrollNow = () => {
     <section className="border-2 border-[#D4EBE2] rounded-sm p-6">
       <div className="">
         <h2 className="text-[#252525] poppins-medium text-4xl">Price $80</h2>
-        <Link to={`/`}>
+        <Link to={`/paymentDetails`}>
           <button className="text-[#FFFFFF] bg-[#73BFA1] plus-jakarta-sans-regular text-base rounded-4xl px-[24px] py-[12px] mt-3">
             Enroll Now
           </button>
