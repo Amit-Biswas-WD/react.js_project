@@ -1,10 +1,4 @@
 import icon from "../../../assets/UnoSicurezza/Home/nav_icon/Group.png";
-import gitHub from "../../../assets/UnoSicurezza/Home/footer_icon/Icon.png";
-import twitter from "../../../assets/UnoSicurezza/Home/footer_icon/Social icon.png";
-import faceBook from "../../../assets/UnoSicurezza/Home/footer_icon/Vector (1).png";
-import iNo from "../../../assets/UnoSicurezza/Home/footer_icon/Vector (2).png";
-import linkedin from "../../../assets/UnoSicurezza/Home/footer_icon/Vector.png";
-
 const FooterStyle = () => {
   return (
     <section className="max-w-[1500px] mx-auto bg-[#101828] md:mt-0 sm:mt-[480px] px-4">
@@ -86,13 +80,35 @@ const FooterStyle = () => {
         </div>
       </div>
       <div className="max-w-[1216px] container mx-auto md:flex justify-between pb-10">
-        <div className="text-[#98A2B3] my-10">© 2022 UnoSicurezza. All rights reserved.</div>
-        <div className="flex items-center gap-8">
-          <img src={twitter} alt="" />
-          <img src={linkedin} alt="" />
-          <img src={faceBook} alt="" />
-          <img src={gitHub} alt="" />
-          <img src={iNo} alt="" />
+        <div className="text-[#98A2B3] my-10">
+          © 2022 UnoSicurezza. All rights reserved.
+        </div>
+        <div className="">
+          <h2 className="text-sm font-semibold text-white">Scarica App</h2>
+          <div className="flex items-center gap-5">
+            <div className="flex items-center gap-4 bg-black text-white py-[3px] px-3 rounded-[5px] my-2 border border-[#A6A6A6]">
+              <img
+                src="img/Icon2.png"
+                alt="Not Found"
+                className="max-w-[22px] max-h-[24px]"
+              />
+              <div className="">
+                <p className="text-[11px] font-normal">Get It On</p>
+                <h2 className="text-base font-medium">Google Play</h2>
+              </div>
+            </div>
+            <div className="flex items-center gap-4 bg-black text-white py-[3px] px-3 rounded-[5px] my-2 border border-[#A6A6A6]">
+              <img
+                src="img/Icon9.png"
+                alt="Not Found"
+                className="max-w-[22px] max-h-[24px]"
+              />
+              <div className="">
+                <p className="text-[11px] font-normal">Get It On</p>
+                <h2 className="text-base font-medium">Google Play</h2>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

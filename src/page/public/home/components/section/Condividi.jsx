@@ -22,13 +22,7 @@ const CondividiSection = () => {
               placeholder="Name*"
             />
           </div>
-          <div>
-            <input
-              type="text"
-              className="w-full bg-transparent placeholder:text-slate-400 text-sm border border-slate-200 rounded-md px-3 py-2 transform duration-300 esse focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
-              placeholder="E-mail"
-            />
-          </div>
+          <div></div>
         </div>
         <h2 className="poppins-semibold text-2xl text-[#1F2937] mt-5">
           Feedback sulla sessione
@@ -46,13 +40,14 @@ const CondividiSection = () => {
           </div>
           <p className="text-[#6B7280]">4/5 stars</p>
         </div>
-        <p className="text-[#6B7280] font-normal mb-1">Additional feedback</p>
-        <Textarea
-          className="rounded-lg text-black h-24"
-          placeholder="My feedback!!"
+        <p className="text-[#6B7280] font-normal mb-1">Lascia un commento</p>
+        <textarea
+          className="w-full h-[100px] px-4 rounded-lg text-black border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 resize-none"
+          placeholder="Lascia un commento"
         />
+
         <button className="text-[#FFFFFF] bg-[#73BFA1] rounded-4xl w-full h-10 my-4">
-          Submit
+          Invia
         </button>
       </div>
 
@@ -93,10 +88,10 @@ const CondividiSection = () => {
       <div className="block md:hidden relative">
         <div className="absolute -right-[1px] -top-[70px]">
           <img
-          className="w-[360px] h-[410px] bg-cover object-co"
-          src={image}
-          alt=""
-        />
+            className="w-[360px] h-[410px] bg-cover object-co"
+            src={image}
+            alt=""
+          />
         </div>
         <div className="absolute w-full h-full max-w-[550px] max-h-[1000px]">
           <div

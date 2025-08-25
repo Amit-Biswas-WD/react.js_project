@@ -7,6 +7,7 @@ import TabPanel from "@mui/lab/TabPanel";
 import CourseInfo from "./button/CourseInfo";
 import Reviews from "./button/Reviews";
 import "../../../../index.css";
+import EnrollNow from "./button/EnrollNow";
 
 const CourseContent = () => {
   const [value, setValue] = React.useState("1");
@@ -16,7 +17,7 @@ const CourseContent = () => {
   };
 
   return (
-    <section className="max-w-7xl mx-auto grid md:grid-cols-2 sm:grid-cols-1 gap-8 my-20">
+    <section className="max-w-7xl mx-auto grid md:grid-cols-2 sm:grid-cols-1 gap-6 my-20 p-4">
       <div>
         <div className="max-w-[690px] max-h-[427px]">
           <div
@@ -57,8 +58,10 @@ const CourseContent = () => {
           </Box>
         </div>
       </div>
-
-      <div className=""></div>
+      
+      <div className="">
+        <EnrollNow />
+      </div>
     </section>
   );
 };

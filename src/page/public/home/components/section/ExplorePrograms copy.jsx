@@ -1,7 +1,7 @@
 import "../../../../../index.css";
 import img1 from "../../../../../assets/UnoSicurezza/Home/explore/fea2a0b7dc7728c8456ad4b75c7b348c5112ad79.jpg";
-import img2 from "../../../../../assets/UnoSicurezza/Home/explore/e0f0d8d9ab0592e26bd0f1b67e6d3386819c3e94 (1).jpg";
-import img3 from "../../../../../assets/UnoSicurezza/Home/explore/0b922a7202cdacb6e1f64689fd1d756a43a1824b.jpg";
+import img2 from "../../../../../assets/UnoSicurezza/Home/explore/f372.jpg";
+import img3 from "../../../../../assets/UnoSicurezza/Home/explore/6c84.jpg";
 
 import image1 from "../../../../../assets/UnoSicurezza/Home/explore/author/5412a2bcc1a0b62fe5e42bf0f9af1ac1d77a35ab.png";
 import image3 from "../../../../../assets/UnoSicurezza/Home/explore/author/2cc3ba92c0a402567bf37e095262f204b3eb3c99.jpg";
@@ -20,7 +20,7 @@ const Data = [
     category: "Soft skills",
     title: "Formazione SEVESO",
     paragraph:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      " corso Seveso III si riferisce alla direttiva UE 2012/18/UE sulla prevenzione degli incidenti rilevanti che comportano sostanze pericolose, comunemente nota come Direttiva Seveso III ",
     rating: 4.5,
     author: {
       image: image1,
@@ -35,7 +35,7 @@ const Data = [
     category: "Safety at work",
     title: "Formazione per i datori...",
     paragraph:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Accordo, ai sensi dell’articolo 37, comma 2, del decreto legislativo 9 aprile 2008, n. 81, tra il Governo, le regioni e le Province autonome di Trento e di Bolzano, finalizzato alla individuazione della durata e dei contenuti minimi dei percorsi formativi in materia di salute e sicurezza, di cui al medesimo decreto legislativo n. 81 del 2008.",
     rating: 4.3,
     author: {
       image: image3,
@@ -50,7 +50,7 @@ const Data = [
     category: "CFP courses",
     title: "Formazione GENERALE",
     paragraph:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Accordo, ai sensi dell’articolo 37, comma 2, del decreto legislativo 9 aprile 2008, n. 81, tra il Governo, le regioni e le Province autonome di Trento e di Bolzano, finalizzato alla individuazione della durata e dei contenuti minimi dei percorsi formativi in materia di salute e sicurezza, di cui al medesimo decreto legislativo n. 81 del 2008.",
     rating: 3.5,
     author: {
       image: image3,
@@ -65,7 +65,7 @@ const Data = [
     category: "CFP courses",
     title: "Formazione GENERALE",
     paragraph:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      " corso Seveso III si riferisce alla direttiva UE 2012/18/UE sulla prevenzione degli incidenti rilevanti che comportano sostanze pericolose, comunemente nota come Direttiva Seveso III",
     rating: 3.5,
     author: {
       image: image3,
@@ -80,7 +80,7 @@ const Data = [
     category: "Soft skills",
     title: "Formazione SEVESO",
     paragraph:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Accordo, ai sensi dell’articolo 37, comma 2, del decreto legislativo 9 aprile 2008, n. 81, tra il Governo, le regioni e le Province autonome di Trento e di Bolzano, finalizzato alla individuazione della durata e dei contenuti minimi dei percorsi formativi in materia di salute e sicurezza, di cui al medesimo decreto legislativo n. 81 del 2008.",
     rating: 4.5,
     author: {
       image: image1,
@@ -95,7 +95,7 @@ const Data = [
     category: "Safety at work",
     title: "Formazione per i datori...",
     paragraph:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      " corso Seveso III si riferisce alla direttiva UE 2012/18/UE sulla prevenzione degli incidenti rilevanti che comportano sostanze pericolose, comunemente nota come Direttiva Seveso III",
     rating: 4.3,
     author: {
       image: image1,
@@ -110,7 +110,7 @@ const Data = [
     category: "CFP courses",
     title: "Formazione GENERALE",
     paragraph:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Accordo, ai sensi dell’articolo 37, comma 2, del decreto legislativo 9 aprile 2008, n. 81, tra il Governo, le regioni e le Province autonome di Trento e di Bolzano, finalizzato alla individuazione della durata e dei contenuti minimi dei percorsi formativi in materia di salute e sicurezza, di cui al medesimo decreto legislativo n. 81 del 2008.",
     rating: 3.5,
     author: {
       image: image3,
@@ -125,7 +125,7 @@ const Data = [
     category: "CFP courses",
     title: "Formazione GENERALE",
     paragraph:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      " corso Seveso III si riferisce alla direttiva UE 2012/18/UE sulla prevenzione degli incidenti rilevanti che comportano sostanze pericolose, comunemente nota come Direttiva Seveso III",
     rating: 3.5,
     author: {
       image: image3,
@@ -136,7 +136,7 @@ const Data = [
   },
 ];
 
-const ExploreProgramsSection = () => {
+const ExploreProgramsSectionCopy = () => {
   return (
     <section className="max-w-7xl mx-auto px-4">
       <div>
@@ -178,4 +178,4 @@ const ExploreProgramsSection = () => {
   );
 };
 
-export default ExploreProgramsSection;
+export default ExploreProgramsSectionCopy;

@@ -1,30 +1,42 @@
+import "../../../../../index.css"
+
 const faqs = [
   {
-    question: "What am I getting as a Premium Member?",
+    id: 1,
+    question: "What will I learn in the Web Development track?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ipsum sapien. Vestibulum molestie porttitor augue vitae vulputate. Aliquam nec ex maximus, suscipit diam vel, tristique tellus.",
+      "You'll master HTML, CSS, JavaScript, and frameworks like React and Next.js. You'll also learn responsive design, API integration, backend development with Node.js, and deployment to platforms like Vercel or Netlify.",
   },
   {
-    question: "Can I cancel my subscription anytime?",
+    id: 2,
+    question: "What will I learn in the App Development track?",
     answer:
-      "Yes, you can cancel anytime from your account settings. Your subscription will remain active until the end of the billing period.",
+      "You'll learn to build mobile applications for both iOS and Android using Flutter or React Native. The course covers UI design, API integration, state management, and publishing apps to the App Store and Google Play.",
   },
   {
-    question: "Do you offer customer support?",
+    id: 3,
+    question: "What will I learn in the Software Development track?",
     answer:
-      "Absolutely! We offer 24/7 customer support through chat and email for all premium members.",
+      "You'll learn software engineering fundamentals, programming languages like Python or Java, database design, algorithms, version control with Git, and testing best practices.",
   },
   {
-    question: "Is my data secure?",
+    id: 4,
+    question: "Do I need prior experience to enroll?",
     answer:
-      "We take your privacy seriously and use industry-standard encryption to keep your data safe.",
+      "No prior experience is needed for beginner modules. However, intermediate and advanced tracks assume basic programming knowledge.",
+  },
+  {
+    id: 5,
+    question: "Will I work on real-world projects?",
+    answer:
+      "Yes! Each track includes multiple hands-on projects like portfolio websites, mobile apps, and fully functional software tools you can showcase to employers or clients.",
   },
 ];
 
 const CourseInfo = () => {
   return (
-    <div className="">
-      <div className="">
+    <section>
+      <div>
         <h2 className="text-[#505050] text-2xl poppins-semibold">
           Course Description
         </h2>
@@ -40,9 +52,12 @@ const CourseInfo = () => {
       <div className="">
         <ul className="max-w-2xl mx-auto mt-20 bg-white">
           {faqs.map((faq, idx) => (
-            <li key={idx} className="text-[#505050] text-xl poppins-medium py-4">
+            <li
+              key={idx}
+              className="text-[#505050] text-xl poppins-medium py-4"
+            >
               <details className="group">
-                <summary className="flex items-center justify-between font-medium hover:cursor-pointer bg-[#D4EBE2] w-full py-[15px] px-4 rounded-sm">
+                <summary className="flex items-center justify-between font-medium hover:cursor-pointer bg-[#D4EBE2] w-full py-[18px] px-6 rounded-sm">
                   <span>{faq.question}</span>
                   <svg
                     className="w-5 h-5 text-gray-500 transition-transform duration-300 group-open:rotate-90"
@@ -67,7 +82,7 @@ const CourseInfo = () => {
           ))}
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 
