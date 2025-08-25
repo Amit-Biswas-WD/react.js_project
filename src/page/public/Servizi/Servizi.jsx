@@ -1,5 +1,6 @@
 import BannerSection from "./components/section/BannerSection";
 import DellaPiattaforma from "./components/section/DellaPiattaforma";
+import Piani from "./components/section/Piani";
 import ServizioPremium from "./components/section/ServizioPremium";
 // import ChooseSection from "./components/section/ChooseSection";
 // import FeedbackSection from "./components/section/FeedbackSection";
@@ -13,6 +14,7 @@ const Servizi = () => {
       <BannerSection />
       <ServizioPremium/>
       <DellaPiattaforma/>
+      <Piani/>
       {/* <FosteringSection />
       <ChooseSection />
       <WhoSection />

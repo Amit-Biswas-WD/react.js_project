@@ -50,7 +50,7 @@ const DellaPiattaforma = () => {
                 {data.array.map((point, idx) => (
                   <div key={idx} className="flex items-center gap-3">
                     <img
-                      src="img/Premium/Vector.png"
+                      src="img/Servizi/Premium/Vector.png"
                       alt=""
                       className="w-6 h-6"
                     />

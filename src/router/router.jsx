@@ -6,6 +6,7 @@ import FormazioneView from "../page/public/formazione/FormazioneView";
 import ChisiamoView from "../page/public/chisiamo/ChisiamoView";
 import CollaboraView from "../page/public/collabora/CollaboraView";
 import ContattaciView from "../page/public/contattaci/ContattaciView";
+import PaymentDetails from "../page/public/payment/PaymentDetails";
 
 const AppRouter = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const AppRouter = createBrowserRouter([
       { path: "/chisiamo", element: <ChisiamoView/> },
       { path: "/collabora", element: <CollaboraView/> },
       { path: "/contattaci", element: <ContattaciView/> },
+      { path: "/paymentDetails", element: <PaymentDetails/> },
     ],
   },
 ]);

@@ -17,7 +17,7 @@ const ServizioPremium = () => {
             GDPR.
           </p>
           <img
-            src="img/Premium/b2f.png"
+            src="img/Servizi/Premium/b2f.png"
             alt="fad"
             className="my-6 mx-auto md:mx-10"
           />
@@ -29,7 +29,7 @@ const ServizioPremium = () => {
         {/* Image Section */}
         <div className="w-full lg:w-3/7 flex justify-center lg:justify-end">
           <img
-            src="img/Premium/wrpg.png"
+            src="img/Servizi/Premium/wrpg.png"
             alt="Servizio Premium Illustration"
             className="w-full h-auto lg:max-w-[510px] lg:max-h-[453px] object-contain"
           />
