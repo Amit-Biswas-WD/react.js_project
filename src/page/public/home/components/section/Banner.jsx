@@ -1,4 +1,3 @@
-import image from "../../../../../assets/corsi-sicurezza.webp";
 import StyleButton from "../../../../../components/Button/StyleButton";
 
 const BannerSection = () => {
@@ -24,7 +23,7 @@ const BannerSection = () => {
           </div>
         </div>
         <div>
-          <img src={image} alt="" />
+          <img src={"public/img/servizi/banner/img.webp"} alt="" />
         </div>
       </div>
     </section>
