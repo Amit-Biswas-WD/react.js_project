@@ -1,25 +1,40 @@
+import { Link } from "react-router-dom";
 import navImage from "../../../assets/UnoSicurezza/Home/nav_icon/Group.png";
 import StyleButton from "../../../components/Button/StyleButton";
 
+const navLink = [
+  { label: "Home", path: "/home" },
+  { label: "servizi", path: "/servizi" },
+  { label: "Formazione", path: "/sormazione" },
+  { label: "Chi siamo", path: "/chisiamo" },
+  { label: "Collabora con noi", path: "/collabora" },
+  { label: "Contattaci", path: "/contattaci" },
+];
+
 const NavStyle = () => {
   return (
-    <div className="flex justify-between text-black my-8 w-[1440px] container mx-auto">
-      <div className="">
-        <img className="" src={navImage} alt="" />
-        <p className="w-6 h-8 text-[#252525]">UnoSicurezza</p>
+    <header className="my-8 w-[1440px] container mx-auto">
+      <div className="max-w-[1200px] container mx-auto flex justify-between text-black ">
+        <div className="">
+          <img className="ml-7" src={navImage} alt="" />
+          <p className="w-6 h-8 text-[#252525]">UnoSicurezza</p>
+        </div>
+        <div>
+          <ul className="flex gap-[45px] my-8">
+            {navLink.map((nav) => (
+              <li className="">
+                <Link to={nav.path} className="font-normal text-base">
+                  {nav.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="my-auto">
+          <StyleButton props={"E-Learning"} />
+        </div>
       </div>
-      <div className="flex gap-[55px] my-6">
-        <h2 className="font-normal text-base">Home</h2>
-        <h2 className="font-normal text-base">Servizi</h2>
-        <h2 className="font-normal text-base ">Formazione</h2>
-        <h2 className=" font-normal text-base">Chi siamo</h2>
-        <h2 className="font-normal text-base">Collabora con noi</h2>
-        <h2 className="w-[47px] h-[24px] font-normal text-base">Contattaci</h2>
-      </div>
-      <div className="my-auto">
-        <StyleButton props={"E-Learning"} />
-      </div>
-    </div>
+    </header>
   );
 };
 

@@ -4,7 +4,7 @@ import StyleButton from "../../../../../components/Button/StyleButton";
 const BannerSection = () => {
   return (
     <section className="w-[1200px] container mx-auto">
-      <div className="flex gap-20 mx-auto my-20">
+      <div className="flex gap-20 mx-auto my-4 mb-20">
         <div className="my-auto">
           <h2 className="text-[76px] font-semibold text-[#73BFA1] ">
             UnoSicurezza
