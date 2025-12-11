@@ -1,6 +1,7 @@
 import BannerSection from "./components/section/BannerSection";
 import ChooseSection from "./components/section/ChooseSection";
 import FosteringSection from "./components/section/FosteringSection";
+import ServicesSection from "./components/section/ServicesSection";
 import WhoSection from "./components/section/WhoSection";
 
 const Servizi = () => {
@@ -10,6 +11,7 @@ const Servizi = () => {
       <FosteringSection/>
       <ChooseSection/>
       <WhoSection/>
+      <ServicesSection/>
     </>
   );
 };

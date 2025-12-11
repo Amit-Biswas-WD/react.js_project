@@ -1,12 +1,12 @@
 import "../../../../../index.css";
 
 const Data = [
-  //   {
-  //     id: 1,
-  //     title: "Why Choose Us?",
-  //     description:
-  //       "Whether you're looking to switch to solar energy or upgrade your cable services, our sales and marketing company is here to help.",
-  //   },
+  {
+    id: 1,
+    title: "Expertise and Experience",
+    description:
+      "With years of experience in the sales and marketing industry, our team has a deep ",
+  },
   {
     id: 2,
     title: "Expertise and Experience",
@@ -27,12 +27,6 @@ const Data = [
   },
   {
     id: 5,
-    title: "Expertise and Experience",
-    description:
-      "With years of experience in the sales and marketing industry, our team has a deep ",
-  },
-  {
-    id: 6,
     title: "Expertise and Experience",
     description:
       "With years of experience in the sales and marketing industry, our team has a deep ",
